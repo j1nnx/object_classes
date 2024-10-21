@@ -14,4 +14,16 @@ public class Author {
     public String getSurname(){
         return this.surname;
     }
+
+    public boolean equals(Author author){
+        return this.name.equals(author.getName()) && this.surname.equals(author.getSurname());
+    }
+
+    public String toString(){
+        return "Имя автора: " + name + " , фамилия автора " + surname;
+    }
+
+    public int hashCode() {
+        return super.hashCode();
+    }
 }

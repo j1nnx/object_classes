@@ -16,5 +16,14 @@ public class Main {
         System.out.println("Имя второго автора = " + writerSasha.getName());
         System.out.println("Фамилия второго автора = " + writerSasha.getSurname());
 
+        System.out.println(" ");
+        System.out.println(firstBook.equals(secondBook));
+        System.out.println(writerArkasha);
+        System.out.println(writerSasha);
+        System.out.println(writerSasha.equals(writerSasha));
+        System.out.println(firstBook.hashCode());
+        System.out.println(secondBook.hashCode());
+        System.out.println(firstBook.hashCode());
+        System.out.println(secondBook.hashCode());
     }
 }
